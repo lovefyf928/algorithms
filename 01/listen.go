@@ -1,6 +1,8 @@
 package main
 
-import "os"
+import (
+	"os"
+)
 
 func IsEmpty() (bool, []interface{}) {
 	list := os.Args
@@ -13,3 +15,5 @@ func IsEmpty() (bool, []interface{}) {
 	}
 	return false, nil
 }
+
+
